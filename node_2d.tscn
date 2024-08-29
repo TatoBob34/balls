@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://d2dutwb05y7h5"]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(29, -6)
-scale = Vector2(-19.9204, 884)
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(397.002, 156.603)
