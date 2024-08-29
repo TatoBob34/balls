@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8r5t841xy81v"]
+
+[sub_resource type="InputEventMouseButton" id="InputEventMouseButton_ngix8"]
+
+[sub_resource type="Shortcut" id="Shortcut_jc6yu"]
+events = [SubResource("InputEventMouseButton_ngix8")]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -2.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="." node_paths=PackedStringArray("shortcut_context")]
+clip_contents = true
+layout_mode = 0
+offset_left = 400.0
+offset_top = 336.0
+offset_right = 728.0
+offset_bottom = 420.0
+mouse_default_cursor_shape = 13
+shortcut_context = NodePath(".")
+shortcut = SubResource("Shortcut_jc6yu")
+text = "STROKE"
